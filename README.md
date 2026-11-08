@@ -11,6 +11,8 @@ npm run dev
 
 ## Публикация
 
-GitHub Actions собирает и публикует сайт в GitHub Pages при каждом push в `main`.
+Сайт опубликован в GitHub Pages из ветки `gh-pages`.
 
-Сайт: https://dkzver.github.io/m-fresh-house/
+https://dkzver.github.io/m-fresh-house/
+
+GitHub Actions сейчас недоступен из-за ограничения аккаунта по биллингу. Чтобы обновить сайт, соберите проект командой `npm run build` и опубликуйте содержимое `dist/` в корень ветки `gh-pages`.
